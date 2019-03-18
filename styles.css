@@ -2,4 +2,14 @@
   margin-left: 25px;
   margin-top: 25px;
 }
+
+p {
+  width: 1100px;
+}
+
+.source {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
 /*# sourceMappingURL=styles.css.map */
