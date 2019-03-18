@@ -1,0 +1,7 @@
+Javascript:
+https://www.w3schools.com/js/
+https://wiki.selfhtml.org/wiki/JavaScript
+
+PHP:
+https://www.php-einfach.de/php-tutorial/
+https://www.tutorialrepublic.com/php-tutorial/
