@@ -2,7 +2,7 @@
 <html lang="de">
 
 <head>
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon.ico">
   
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -97,7 +97,25 @@
     </div>
   </nav>
   <div class="content">
-    <h1>Einführung</h1>
+    <h1>Syntax</h1>
+    <p>Die Syntax von Javascript beschreibt, wie Befehle und Argumente aufgebaut sind und wie diese vom Browser interpretiert werden.</p>
+    <p>Da wir mit Jquery arbeiten, werden wir auch den Aufbau von Jquery anschauen.</p>
+    <h2>Syntax Javascript</h2>
+    <div class="code">
+      document.   <i>(Objekt)</i><br/>
+      write("Guten Tag!");   <i>(Methode)</i>
+    </div><br/>
+    <p>Das Objekt steht für die gesamte Webseite. Alle Browser implementieren dieses Objekt. Sie können es verwenden, indem Sie einfach seinen Namen nennen.</p>
+    <p>Die Methode write() des document-Objekts erlaubt es , neuen Inhalt auf die Seite zu schreiben, und zwar an die Stelle, an der sich das script-Element befindet.</p>
+    <p>Wenn eine Methode Informationen benötigt, um ihre Arbeit zu erledigen, werden diese Daten innerhalb der Klammern angegeben. Jede einzelnen dieser Informationen ist ein
+      Parameter der Methode. Hier muss die Methode write() wissen, was sie auf die Seite schreiben soll.
+    </p>
+    <h2>Syntax Jquery</h2>
+    <div class="code">
+      $('.klasse').   <i>(Objekt)</i><br/>
+      funktion(parameter);   <i>(Methode)</i>
+    </div><br/>
+    <p>Bei Jquery kann man $ benutzen, um zu sagen, dass man alles von innerhalb der Klammer auswählen will. Innerhalb der ersten Klammer steht, was man auswählt.</p>
   </div>
   <footer>
     <h5 class="sky">Made by Manuel Rahm</h5>
