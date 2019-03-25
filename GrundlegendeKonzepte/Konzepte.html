@@ -2,7 +2,7 @@
 <html lang="de">
 
 <head>
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon.ico">
   
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -97,7 +97,34 @@
     </div>
   </nav>
   <div class="content">
-    <h1>Einführung</h1>
+    
+    <h1>Objekte - Eigenschaften und Methoden</h1>
+    <p>Objekte in Javascript sind Datenelemente mit Eigenschaften und oft auch Methoden(Funktionen).
+      Neben vielen vordefinierten Objekten können Sie in Javascript auch eigenen Objekte erzeugen und deren Eigenschaften auslesen und Methoden abrufen.
+    </p>
+    <p>Ein Objekt funktioniert als eine Zuordnungsliste, die unter bestimmten Namen weitere Unterobjekte, auch Member genannt, speichert. 
+      Diese Unterobjekte teilt man in Eigenschaften und Methoden. Methoden sind ausführbare Funktionen, die dem Objekt zugehören, Eigenschaften sind alle nicht ausführbaren Unterobjekte. 
+      Sie können als mit dem Objekt verbundene Variablen erklärt werden.</p>
+      <p>Auf die Eigenschaften eines Objekts können Sie am einfachsten mit der Punkt-Notation zugreifen:</p>
+      <div class="code">
+        ObjektName.EigenschaftsName
+      </div><br/>
+      <p>Ein neues Objekt wird mit dem Schlüsselwort new eingeleitet. Sie können für dieses Objekt Eigenschaften deklarieren, in dem Sie ihnen einen Wert zuweisen:</p>
+      <div class="code">
+          var auto = new Object();<br/>
+          auto.marke   = 'Audi';<br/>
+          auto.farbe   = 'rot';<br/>
+          auto.baujahr = 2007;<br/>
+          auto.tüv     = true;<br/>
+      </div><br/>
+      <h1>Scope</h1>
+      <p>Ein Scope beschreibt zu was für Variablen man Zugang hat. Es gibt zwei Arten von Scopes: Globale und Lokale Scopes.</p>
+      <p>Wenn eine Variable ausserhalb aller Funktionen oder geschweiften Klammen deklariert wird, ist es ein globaler Scope.</p>
+      <p>Variablen, die nur in einem bestimmten Bereich des Codes verwendbar sind, sind lokale Scopes.</p>
+      <p>Man sollte immer lokale Variablen nehmen, da bei globalen Variablen eine grosse Chance von Namenskollisionen besteht.</p>
+      <p>Es gibt zwei Arten von lokalen Scopes: function scope und block scope.</p>
+      <h2>Function scope</h2>
+      <p>Wenn Sie eine Variable definieren, können Sie diese nur innerhalb der Funktion erreichen.</p>
   </div>
   <footer>
     <h5 class="sky">Made by Manuel Rahm</h5>
