@@ -2,7 +2,7 @@
 <html lang="de">
 
 <head>
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon.ico">
   
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -97,11 +97,24 @@
     </div>
   </nav>
   <div class="content">
-      <h1 id="comment">Kommentare</h1>
+      <h1 id="kommentare">Kommentare</h1>
       <p>Kommentare sind Abschnitte im Skript, welche nicht ausgeführt werden und sind sinvoll für Angaben zum Skript, damit man leichter verstehen kann, was da nun gemacht wurde.
         Auch können Sie mit Kommentaren später besser nachvollziehen, was für Überlegungen Sie da gemacht haben.</p>
-
-  </div>
+        <p>Kommentare sind auch nützlich, um Code auszukommentieren, damit dieser nicht ausgeführt wird. Dies ist hilfreich, wenn man Code testen will, ob ein Code-Abschnitt überhaupt gebraucht wird.</p>
+        <h2>Mehrzeilige Kommentare</h2>
+        <p>Mehrzeilige Kommentare werden durch die Zeichenfolge <b>/*</b> eingeleitet und durch <b>*/</b> beendet. 
+          Alles was zwischen diesen beiden Zeichenfolgen steht, wird nicht als Quellcode interpretiert. 
+          Sie dürfen sich über mehrere Zeilen erstrecken, Eine Verschachtelung mehrzeiliger Kommentare ineinander ist nicht erlaubt.</p>
+          <div class="code">
+            /* Programm zur Berechnung von Lebensdauer
+            Version vom 26.03.2019
+            Autor: Rias Gremory */
+          </div><br/>
+        <h2>Einzeilige Kommentare</h2>
+        <p>Einzeilige Kommentare werden mit <b>//</b> eingeleitet und erstrecken sich bis zum Ende der Zeile. Sie sind gut für kurze Erklärungen geeignet oder um einfach eine Zeile auszukommentieren.</p>
+        <p>Ein grosser Vorteil einzeiliger Kommentare ist, dass sie auch innerhalb von mehrzeiligen Kommentaren vorkommen können.</p>
+        <h1 id="bezeichner">Bezeichner </h1>
+      </div>
   <footer>
     <h5 class="sky">Made by Manuel Rahm</h5>
   </footer>
