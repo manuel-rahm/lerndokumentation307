@@ -143,16 +143,17 @@
           <p>Beachten Sie:</p>
           <ul>
             <li>Bei der Vergabe von Variablennamen gelten die Regeln für selbstvergebene Namen.</li>
-            <li>Beim Arbeiten mit Variablen sucht der Interpreter die Variable zuerst im lokalen und anschliessen im übergeordneten bis hin zum gloablen Sichtbarkeitsbereich.</li>
+            <li>Beim Arbeiten mit Variablen sucht der Interpreter die Variable zuerst im lokalen und anschliessend im übergeordneten bis hin zum gloablen Sichtbarkeitsbereich.</li>
           </ul>
           <h1 id="operatoren">Operatoren</h1>
           <p>Operatoren dienen der Berechnung, Bedingungssetzung, etc.</p>
           <p>Für die einzelnen Operatoren-Typen verweise ich auf: <a class="link" href="https://wiki.selfhtml.org/wiki/JavaScript/Operatoren" target="_blank">Operatoren SelfHTML</a></p>
           <h1 id="funktionen">Funktionen</h1>
           <p>Eine <b>Funktion</b> bezeichnet im Quellcode ein Stück Javascript, das an einer Stelle gespeichert ist und von anderen Stellen aus beliebig oft aufgerufen werden kann. Funktionen verfügen über Parameter, darunter versteht man eine Liste von Variablennamen,
-          die während der Ausführung wie lokale Variablen zur Verfügung stehen und deren Werte - Argumente genannt - vom Aufrufen bereitgestellt werden. Eine Funktion lässt sich so leicht für unterschiedliche Zwekce aufrufen.
-        Zum Abschluss kann eine Funktion einen einzelnen Wert an den Aufrufer zurückgeben.</p>
-        <p>Funktionsobjekte können auch Eigenschaft eines anderen Objektes sein, dann spricht man von Methoden.</p>
+          die während der Ausführung wie lokale Variablen zur Verfügung stehen und deren Werte - Argumente genannt - vom Aufrufen bereitgestellt werden. Eine Funktion lässt sich so leicht für unterschiedliche Zwecke aufrufen.
+        Zum Abschluss kann eine Funktion einen einzelnen Wert an den Aufrufer zurückgeben. Mit Funktionen gruppieren Sie eine Folge von Befehlen, die zusammen eine bestimmte Aufgabe ausführen.</p>
+        <p>Funktionsobjekte können auch Eigenschaft eines anderen Objektes sein, dann spricht man von Methoden. Folgend sehen Sie den Aufbau einer Funktion:</p>
+        <img src="../img/function.png" alt="Funktion"><br/><br/>
         <h2>Objektunabhängige Funktionen</h2>
         <p>Sie sind im Gegensatz zu selbstdefinierten Funktionen in Javascript bereits vordefiniert. Das heisst, Sie können diese Funktionen jederzeit aurufen, ohne sie vorher selbst definieren zu müssen, da sie bereits in Javascript intergriert sind.</p>
         <h2>Funktionsdeklaration als Statement</h2>
@@ -163,6 +164,13 @@
           <li>Es erzeugt ein Funktionsojekt als Instanz des Function-Konstruktors mit den angegenen Argument</li>
           <li>Es weist das Objekt an die Variable zu.</li>
         </ul>
+        <h1>Arrays</h1>
+        <p>Ein Array ist eine Datenstruktur, die mehrere Werte unter einem gemeinsamen Namen speichert. Auf diese Werte kann mit einem ganzzahligen Index zugegriffen werden. Die Reihenfolge der hinterlegten Daten wird durch deren Position im Array bestimmt.
+          Ein Array ist abstrakt gesehen eine Sequenz von aufeinanderfolgenden Werte. Diese müssen in Javascript nicht vom gleichen Typ sein. In anderen Programmiersprachen existiert auch die Begrifflichkeit Liste oder Vektor.
+        </p>
+        <p>Die Erstellung neuer Arrays erfolgt über das Schlüsselwort <b>new</b>, gefolgt vom Funktionsaufruf <b>Array</b>, mit oder ohne Parameter. Arrays dürfen anfänglich leer sein, sie enthalten dann nur keine Elemente. 
+          Ein nachträgliches Verändern von Arrays durch Hinzufügen, Löschen oder Manipulieren der Elemente ist jederzeit möglich.</p>
+          <p></p>
       </div>
   <footer>
     <h5 class="sky">Made by Manuel Rahm</h5>
