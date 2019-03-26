@@ -113,7 +113,33 @@
         <h2>Einzeilige Kommentare</h2>
         <p>Einzeilige Kommentare werden mit <b>//</b> eingeleitet und erstrecken sich bis zum Ende der Zeile. Sie sind gut für kurze Erklärungen geeignet oder um einfach eine Zeile auszukommentieren.</p>
         <p>Ein grosser Vorteil einzeiliger Kommentare ist, dass sie auch innerhalb von mehrzeiligen Kommentaren vorkommen können.</p>
-        <h1 id="bezeichner">Bezeichner </h1>
+        <h1 id="bezeichner">Bezeichner</h1>
+        <p>Bezeichner sind Namen, die Sie für Funktionen, eigenen Objekte oder Variablen, vergeben.</p>
+        <p>Folgende Regeln sind bei der Namensvergabe zu beachten.</p>
+        <ul>
+          <li>Sie dürfen keine Leerzeichen enthalten.</li>
+          <li>Sie dürfen nur aus Buchstaben und Ziffern bestehen - das erste Zeichen muss ein Buchstaben sein; Gross- und Kleinschreibung wird unterschieden.</li>
+          <li>Sie dürfen keine deutschen Umlaute oder scharfes S enthalten.</li>
+          <li>Sie dürfen als einziges Sonderzeichen den Unterstrich "_" enthalten.</li>
+          <li>Sie dürfen nicht mit einen reservierten Wort identisch sein.</li>
+        </ul>
+        <p>Es empfiehlt sich <b>sprechende Namen</b> zu vergeben, die Ihnen auch längere Zeit später, noch signalisiert, welche Bedeutung sie haben.</p>
+        <h1 id="var">Variablen</h1>
+        <p>Eine Variable ist ein logischer Speicherplatz mit einem Namen und einem Wert, der verändert werden kann.
+          In Javascript gibt es drei Möglichkeiten Variablen zu deklarieren.</p>
+          <ul>
+            <li><b>var</b>: deklariert eine Variable unabhängig von ihrem Gültigkeitsbereich.</li>
+            <li><b>let</b>: deklariert eine lokale Variable im Block scope.</li>
+            <li><b>const</b>: Symbolische Konstante; deklariert eine unveränderliche Variable.</li>
+          </ul>
+          <h2>var</h2>
+          <p>Durch das Schlüsselwort <b>var</b> wird eine Variable vereinbart. Sie wird damit im aktuellen Scope angelegt. Ohne das Schlüsselwort wird die Variable im gloablen Scope erstellt.</p>
+          <p>Sie kann entweder ohne Wert deklariert werden:</p>
+          <div class="code">var alter;</div><br/>
+          <p>Oder der Anfangswert kann zu Beginn angegeben werden:</p>
+          <div class="code">var alter = 18;</div><br/>
+          <p>Anstelle eines "Werts" kann auch ein beliebiger Ausdruck stehen:</p>
+          <div class="code">var Bezeichner = Ausdruck;</div><br/>
       </div>
   <footer>
     <h5 class="sky">Made by Manuel Rahm</h5>
