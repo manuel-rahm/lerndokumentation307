@@ -56,4 +56,10 @@ ul {
   border-radius: 10px;
   background-color: #91bdff;
 }
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
 /*# sourceMappingURL=styles.css.map */

@@ -1,6 +1,7 @@
 Javascript:
 https://www.w3schools.com/js/
 https://wiki.selfhtml.org/wiki/JavaScript
+https://css-tricks.com/javascript-scope-closures/
 
 PHP:
 https://www.php-einfach.de/php-tutorial/
