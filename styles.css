@@ -107,4 +107,8 @@ td:first-child {
 th:first-child {
   width: 250px;
 }
+
+.hide {
+  display: none;
+}
 /*# sourceMappingURL=styles.css.map */
