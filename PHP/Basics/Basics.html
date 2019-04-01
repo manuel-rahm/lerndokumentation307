@@ -87,13 +87,12 @@
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="Basics.html#phpvar">Variablen</a>
             <a class="dropdown-item" href="Basics.html#Ausgabetypen">Ausgabetypen</a>
-            <a class="dropdown-item" href="Basics.html#Bedingte Statements">Bedingte Statements</a>
+            <a class="dropdown-item" href="Basics.html#Bedingte-Statements">Bedingte Statements</a>
             <a class="dropdown-item" href="Basics.html#String-Funktionen">Strings</a>
             <a class="dropdown-item" href="Basics.html#Operatoren">Operatoren</a>
-            <a class="dropdown-item" href="Basics.html">Arrays</a>
-            <a class="dropdown-item" href="Basics.html">Objekte</a>
-            <a class="dropdown-item" href="Basics.html">Loops</a>
-            <a class="dropdown-item" href="Basics.html">Funktionen</a>
+            <a class="dropdown-item" href="Basics.html#Arrays">Arrays</a>
+            <a class="dropdown-item" href="Basics.html#Loops">Loops</a>
+            <a class="dropdown-item" href="Basics.html#Functions">Funktionen</a>
             <a class="dropdown-item" href="Basics.html">GET und POST</a>
           </div>
         </li>
@@ -129,14 +128,14 @@
     <p>Echo gibt einen oder mehrere Strings aus. Echo ist ein wenig schneller als print. Man kann es ohne Klammern verwenden, da es keine Funktion ist.</p>
     <h2>print</h2>
     <p>Dieser Befehl ist ähnlich wie echo. Auch hier müssen wir keine Klammern verwenden. Der hauptsächliche Unterschied ist, dass print nur ein Argument zur gleichen Zeit haben kann.</p>
-    <h1 id="Bedingte Statements">Bedingte Statements</h1>
+    <h1 id="Bedingte-Statements">Bedingte Statements</h1>
     <p>Diese Statements werden normalerweise gebraucht, um Code auszuführen, sobald eine Bedingung zutrifft.</p>
     <p>Folgende Statements sind bedingt:</p>
     <ul>
         <li>if</li>
         <li>if...else</li>
         <li>if...elseif...else</li>
-        <if>switch</if>
+        <li>switch</li>
     </ul>
     <h2>if</h2>
     <p>if führt bestimmten Code aus, wenn eine Bedingung zutrifft.</p>
@@ -240,6 +239,39 @@
         <li>Associative arrays - Arrays mit benannten Schlüsseln</li>
         <li>Multidimensional arrays - Arrays, die einen oder mehrere Arrays enthalten</li>
     </ul>
+    <p>Auch hier sind die genauen Beschreibungen wieder auf <a class="link" href="https://www.w3schools.com/php/php_arrays.asp" target="_blank">W3Schools</a>.</p>
+    <h1 id="Loops">Schleifen</h1>
+    <p>Wenn Sie Code schreiben, möchten Sie häufig, dass derselbe Codeblock immer wieder in einer Reihe ausgeführt wird. Anstatt mehrere nahezu gleiche Codezeilen in ein Skript einzufügen, können Sie Schleifen verwenden, um eine solche Aufgabe auszuführen.</p>
+    <p>In PHP existieren folgende Schleifen:</p>
+    <ul>
+        <li>while - durchläuft einen Codeblock, solange die angegebene Bedingung erfüllt ist</li>
+        <li>do...while - durchläuft einen Codeblock einmal und wiederholt die Schleife, solange die angegebene Bedingung erfüllt ist</li>
+        <li>for - durchläuft eine bestimmte Anzahl von Malen einen Codeblock</li>
+        <li>foreach - Durchläuft einen Codeblock für jedes Element in einem Array</li>
+    </ul>
+    <p>Für die Theorie zu den Schleifen empfehle ich Ihnen diese zwei Seiten: <a class="link" href="https://www.w3schools.com/php/php_looping.asp" target="_blank">While</a> und <a class="link" href="https://www.w3schools.com/php/php_looping_for.asp" target="_blank">For</a></p>
+    <h1 id="Functions">Funktionen</h1>
+    <p>Die wahre Stärke von PHP liegt in seinen Funktionen. Es verfügt über mehr als 1000 integrierte Funktionen.</p>
+    <h2>Selber eine Funktion erstellen</h2>
+    <p>Neben den integrierten PHP-Funktionen können wir auch eigene Funktionen erstellen.<br/>
+            Eine Funktion ist ein Anweisungsblock, der in einem Programm wiederholt verwendet werden kann.<br/>
+            Eine Funktion wird nicht sofort ausgeführt, wenn eine Seite geladen wird.<br/>
+            Eine Funktion wird durch einen Aufruf der Funktion ausgeführt.</p>
+    <div class="code">
+        <p>&#x3C;?php
+                function writeMsg() {<br/>
+                    echo &#x22;Hello world!&#x22;;<br/>
+                }<br/>
+                <br/>
+                writeMsg(); // Aufrufen der Funktion<br/>
+                ?&#x3E;</p>
+    </div><br/>
+    <p>Bennen Sie die Funktionen am besten, nach dem was sie tun. Zudem achten Funktionsnamen nicht auf Gross- und Kleinschreibung.</p>
+    <p>Informationen können über Argumente an Funktionen übergeben werden. Ein Argument ist wie eine Variable.<br/>
+            Argumente werden nach dem Funktionsnamen in Klammern angegeben. Sie können beliebig viele Argumente hinzufügen. Trennen Sie sie einfach mit einem Komma.</p>
+            <p>Für spezifischere Informationen besuchen Sie <a class="link" href="https://www.w3schools.com/php/php_functions.asp" target="_blank">W3Schools</a>.</p>
+    <h1>Get und Post</h1>
+    <p>Hilfreiche Webseiten: zu diesem Thema: <a class="link" href="http://php.lernenhoch2.de/lernen/php-anfaenger/formulare-erstellen-und-auswerten/unterschied-zwischen-get-und-post/" target="_blank">PHP lernenhoch2</a>, <a class="link" href="https://www.php-einfach.de/php-tutorial/_get-und-_post/" target="_blank">PHP Einfach</a>, <a class="link" href="http://www.selfphp.de/praxisbuch/praxisbuchseite.php?site=183&group=32" target="_blank">SelfPHP</a></p>
   </div>
   <footer>
     <h5 class="sky">Made by Manuel Rahm</h5>
