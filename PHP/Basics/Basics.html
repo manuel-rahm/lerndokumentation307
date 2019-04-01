@@ -150,6 +150,66 @@
                 }<br/>
                 ?&#x3E;
         </p>
+    </div><br/>
+    <h2>if...else</h2>
+    <p>if...else führt bestimmten Code aus, wenn eine Bedingung zutrifft und einen anderen, wenn diese Bedingung falsch ist.</p>
+    <div class="code">
+        <p>&#x3C;?php<br/>
+                $t = date(&#x22;H&#x22;);<br/>
+                <br/>
+                if ($t &#x3C; &#x22;20&#x22;) {<br/>
+                    echo &#x22;Have a good day!&#x22;;<br/>
+                } else {<br/>
+                    echo &#x22;Have a good night!&#x22;;<br/>
+                }<br/>
+                ?&#x3E;</p>
+    </div><br/>
+    <h2>if...elseif...else</h2>
+    <p>if...elseif...else führt verschiedene Codes für mehr als zwei Bedingungen aus.</p>
+    <div class="code">
+        <p>if (condition) {<br/>
+                code to be executed if this condition is true;<br/>
+            } elseif (condition) {<br/>
+                code to be executed if this condition is true;<br/>
+            } else {<br/>
+                code to be executed if all conditions are false;<br/>
+            }
+        </p>
+    </div><br/>
+    <p>Beispiel:</p>
+        <div class="code">
+            <p>&#x3C;?php<br/>
+                    $t = date(&#x22;H&#x22;);<br/>
+                    <br/>
+                    if ($t &#x3C; &#x22;10&#x22;) {<br/>
+                        echo &#x22;Have a good morning!&#x22;;<br/>
+                    } elseif ($t &#x3C; &#x22;20&#x22;) {<br/>
+                        echo &#x22;Have a good day!&#x22;;<br/>
+                    } else {<br/>
+                        echo &#x22;Have a good night!&#x22;;<br/>
+                    }<br/>
+                    ?&#x3E;</p>
+    </div><br/>
+    <h2>switch</h2>
+    <p>Switch wird verwendet, um verschiedene Aktionen basierend auf verschiedenen Bedingungen auszuführen.</p>
+    <div class="code">
+        <p>&#x3C;?php<br/>
+                $favcolor = &#x22;red&#x22;;<br/>
+                <br/>
+                switch ($favcolor) {<br/>
+                    case &#x22;red&#x22;:<br/>
+                        echo &#x22;Your favorite color is red!&#x22;;<br/>
+                        break;<br/>
+                    case &#x22;blue&#x22;:<br/>
+                        echo &#x22;Your favorite color is blue!&#x22;;<br/>
+                        break;<br/>
+                    case &#x22;green&#x22;:<br/>
+                        echo &#x22;Your favorite color is green!&#x22;;<br/>
+                        break;<br/>
+                    default:<br/>
+                        echo &#x22;Your favorite color is neither red, blue, nor green!&#x22;;<br/>
+                }<br/>
+                ?&#x3E;</p>
     </div>
   </div>
   <footer>
