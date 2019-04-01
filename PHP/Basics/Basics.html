@@ -87,6 +87,7 @@
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="Basics.html#phpvar">Variablen</a>
             <a class="dropdown-item" href="Basics.html">Ausgabetypen</a>
+            <a class="dropdown-item" href="Basics.html">Bedingte Statements</a>
             <a class="dropdown-item" href="Basics.html">Strings</a>
             <a class="dropdown-item" href="Basics.html">Operatoren</a>
             <a class="dropdown-item" href="Basics.html">If.. Else</a>
@@ -129,6 +130,27 @@
     <p>Echo gibt einen oder mehrere Strings aus. Echo ist ein wenig schneller als print. Man kann es ohne Klammern verwenden, da es keine Funktion ist.</p>
     <h2>print</h2>
     <p>Dieser Befehl ist ähnlich wie echo. Auch hier müssen wir keine Klammern verwenden. Der hauptsächliche Unterschied ist, dass print nur ein Argument zur gleichen Zeit haben kann.</p>
+    <h1>Bedingte Statements</h1>
+    <p>Diese Statements werden normalerweise gebraucht, um Code auszuführen, sobald eine Bedingung zutrifft.</p>
+    <p>Folgende Statements sind bedingt:</p>
+    <ul>
+        <li>if</li>
+        <li>if...else</li>
+        <li>if...elseif...else</li>
+        <if>switch</if>
+    </ul>
+    <h2>if</h2>
+    <p>if führt bestimmten Code aus, wenn eine Bedingung zutrifft.</p>
+    <div class="code">
+        <p>&#x3C;?php
+                $t = date(&#x22;H&#x22;);<br/>
+                <br/>
+                if ($t &#x3C; &#x22;20&#x22;) {<br/>
+                    echo &#x22;Have a good day!&#x22;;<br/>
+                }<br/>
+                ?&#x3E;
+        </p>
+    </div>
   </div>
   <footer>
     <h5 class="sky">Made by Manuel Rahm</h5>
