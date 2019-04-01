@@ -15,4 +15,4 @@ var today = new Date();
         document.write('<h1 class="gruss hide">' + greeting + '</h1>');
         
         
-        $(".gruss").fadeIn(3000);
+        $(".gruss").fadeIn(2000);
