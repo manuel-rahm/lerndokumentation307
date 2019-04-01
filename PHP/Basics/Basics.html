@@ -86,11 +86,10 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="Basics.html#phpvar">Variablen</a>
-            <a class="dropdown-item" href="Basics.html">Ausgabetypen</a>
-            <a class="dropdown-item" href="Basics.html">Bedingte Statements</a>
-            <a class="dropdown-item" href="Basics.html">Strings</a>
-            <a class="dropdown-item" href="Basics.html">Operatoren</a>
-            <a class="dropdown-item" href="Basics.html">If.. Else</a>
+            <a class="dropdown-item" href="Basics.html#Ausgabetypen">Ausgabetypen</a>
+            <a class="dropdown-item" href="Basics.html#Bedingte Statements">Bedingte Statements</a>
+            <a class="dropdown-item" href="Basics.html#String-Funktionen">Strings</a>
+            <a class="dropdown-item" href="Basics.html#Operatoren">Operatoren</a>
             <a class="dropdown-item" href="Basics.html">Arrays</a>
             <a class="dropdown-item" href="Basics.html">Objekte</a>
             <a class="dropdown-item" href="Basics.html">Loops</a>
@@ -120,7 +119,7 @@
         <li>Eine Variable kann nicht mit einer Zahl beginnen.</li>
         <li>Bei Variablen wird auf Gross- und Kleinschreibung geachtet!</li>
     </ul>
-    <h1>Ausgabetypen</h1>
+    <h1 id="Ausgabetypen">Ausgabetypen</h1>
     <p>Es gibt hauptsächlich zwei Ausgabetypen in PHP:</p>
     <ul>
         <li>echo</li>
@@ -130,7 +129,7 @@
     <p>Echo gibt einen oder mehrere Strings aus. Echo ist ein wenig schneller als print. Man kann es ohne Klammern verwenden, da es keine Funktion ist.</p>
     <h2>print</h2>
     <p>Dieser Befehl ist ähnlich wie echo. Auch hier müssen wir keine Klammern verwenden. Der hauptsächliche Unterschied ist, dass print nur ein Argument zur gleichen Zeit haben kann.</p>
-    <h1>Bedingte Statements</h1>
+    <h1 id="Bedingte Statements">Bedingte Statements</h1>
     <p>Diese Statements werden normalerweise gebraucht, um Code auszuführen, sobald eine Bedingung zutrifft.</p>
     <p>Folgende Statements sind bedingt:</p>
     <ul>
@@ -211,9 +210,9 @@
                 }<br/>
                 ?&#x3E;</p>
     </div><br/>
-    <h1>String-Funktionen</h1>
+    <h1 id="String-Funktionen">String-Funktionen</h1>
     <p>Für eine genaue Übersicht über die String-Funktionen verweise ich auf <a class="link" href="https://www.w3schools.com/Php/php_ref_string.asp" target="_blank">W3Schools</a>.</p>
-    <h1>Operatoren</h1>
+    <h1 id="Operatoren">Operatoren</h1>
     <p>Es wird in folgende Operatoren-Gruppen unterteil:</p>
     <ul>
         <li>Arithmetic operators</li>
@@ -223,6 +222,23 @@
         <li>Logical operators</li>
         <li>String operators</li>
         <li>Array operators</li>
+    </ul>
+    <p>Für die einzelnen Operatorenbeschriebe: <a class="link" href="https://www.w3schools.com/Php/php_operators.asp" target="_blank">W3Schools</a></p>
+    <h1 id="Arrays">Arrays</h1>
+    <p>Ein Array speichert mehrere Werte in einer einzigen Variablen:</p>
+    <div class="code">
+        <p>
+                &#x3C;?php<br/>
+                $cars = array(&#x22;Volvo&#x22;, &#x22;BMW&#x22;, &#x22;Toyota&#x22;);<br/>
+                echo &#x22;I like &#x22; . $cars[0] . &#x22;, &#x22; . $cars[1] . &#x22; and &#x22; . $cars[2] . &#x22;.&#x22;;<br/>
+                ?&#x3E;
+        </p>
+    </div>
+    <p>Es gibt drei Arten von Arrays in PHP:</p>
+    <ul>
+        <li>Indexed arrays - Arrays mit einem numerischen Index</li>
+        <li>Associative arrays - Arrays mit benannten Schlüsseln</li>
+        <li>Multidimensional arrays - Arrays, die einen oder mehrere Arrays enthalten</li>
     </ul>
   </div>
   <footer>
