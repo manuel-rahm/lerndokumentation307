@@ -176,8 +176,37 @@
           <p>In Schleifen wird eine Bedingung geprüft. Wenn sie true ergibt, wird ein Codeblock ausgeführt. Das wird so lange wiederholt, bis die Prüfung false zurückgibt. Es gibt drei Arten von Schleifen:</p>
           <ul>
             <li><b>FOR</b><br/>Wenn Code in einer bestimmten Anzahl von Durchläufen ausgeführt werden muss, verwenden Sie eine for-Schleife. Die Bedingung in einer for-Schleife ist ein Zähler, der angibt, wie oft die Schleife durchlaufen werden soll.</li>
+            <div class="code">
+              <p>
+                var i;
+                for (i = 0 &#x3C; cars.length; i++) {
+                  text += cars[i] + "&#x3C;br/&#x3E;";
+                }
+              </p>
+            </div>
             <li><b>WHILE</b><br/>Wenn Sie nicht wissen, wie oft der Code ausgeführt werden muss, verwenden Sie eine while-Schleife. Die Bedingung muss hier kein Zähler sein. Der Code durchläuft die Schleife so lange, wie die Bedingung true ist.</li>
+            <div class="code">
+              <p>
+                var text = "";<br/>
+                var i = 0;<br/>
+                while (i &#x3C; 10) {<br/>
+                  text += "<br/>Die Zahl ist " + i;<br/>
+                  i++;<br/>
+                }
+              </p>
+            </div>
             <li><b>DO...WHILE</b><br/>Die do...while-Schleife ähnelt der whileSchleife sehr stark, allerdings gibt es einen wichtigen Unterschied: Die Anweisungen in den geschweiften Klammern werden mindestens einmal ausgeführt, selbst wenn die Bedingung gleich zu Anfang zu false ausgewertet wird.</li>
+            <div class="code">
+              <p>
+                var text = "";<br/>
+                var i = 0;<br/>
+                do {<br/>
+                  text += "Die Zahl ist " + i;<br/>
+                  i++;<br/>
+                }<br/>
+                while (i &#x3C; 5);
+              </p>
+            </div>
           </ul>
         </div>
   <footer>

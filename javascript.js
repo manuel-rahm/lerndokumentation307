@@ -12,4 +12,4 @@ if (hourNow > 18) {
     greeting = 'Willkommen! Schauen Sie sich um!';
 }
 
-document.write('<h1 class="gruss">' + greeting + '</h1>')
+document.write('<h1 class="gruss">' + greeting + '</h1>');
